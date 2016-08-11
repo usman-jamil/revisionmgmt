@@ -10,7 +10,7 @@
 
 The revision management application manages revisions of flight reviews.
 
-![**Application Url**](http://infospace.emirates.com/newsites/Demo/Lists/Revision%20Management/TEST.aspx)
+[Application Url](http://infospace.emirates.com/newsites/Demo/Lists/Revision%20Management/TEST.aspx)
 
 > This application uses [d3](https://d3js.org/), [jquery](https://jquery.com/) as external components.
 
