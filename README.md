@@ -1,10 +1,10 @@
 # Table of Contents
-1. [Application Structure](http://dolnxprodvm1036/Sharepoint-Platform-Support/revision-management#application-structure)
-  * [Site Structure](http://dolnxprodvm1036/Sharepoint-Platform-Support/revision-management#site-structure)
-  * [Custom Lists](http://dolnxprodvm1036/Sharepoint-Platform-Support/revision-management#custom-lists)
-  * [Workflows](http://dolnxprodvm1036/Sharepoint-Platform-Support/revision-management#workflows)
-  * [Code Walk-Through](http://dolnxprodvm1036/Sharepoint-Platform-Support/revision-management#code-walk-through)
-3. [Credits](http://dolnxprodvm1036/Sharepoint-Platform-Support/revision-management#credits)
+1. [Application Structure](#application-structure)
+  * [Site Structure](#site-structure)
+  * [Custom Lists](#custom-lists)
+  * [Workflows](#workflows)
+  * [Code Walk-Through](#code-walk-through)
+3. [Credits](#credits)
 
 # Revision Management
 
@@ -20,20 +20,20 @@ The Site structure contains only the main site.
 > The site is based on the **Team Site** template
 
 ### Custom Lists
-  1. [Revision Management](http://dolnxprodvm1036/Sharepoint-Platform-Support/revision-management/blob/master/src/ListTemplates/Revision%20Management.stp)  
+  1. [Revision Management](src/ListTemplates/Revision%20Management.stp)  
     __Dependencies:__  
 	* _MasterFleet_
 	* _MasterManual_
 	* _MasterChapter_
 	* _MasterSection_
-  2. [MasterFleet](http://dolnxprodvm1036/Sharepoint-Platform-Support/revision-management/blob/master/src/ListTemplates/MasterFleet.stp)
-  3. [MasterManual](http://dolnxprodvm1036/Sharepoint-Platform-Support/revision-management/blob/master/src/ListTemplates/MasterManual.stp)  
+  2. [MasterFleet](src/ListTemplates/MasterFleet.stp)
+  3. [MasterManual](src/ListTemplates/MasterManual.stp)  
     __Dependencies:__  
 	* _MasterFleet_
-  4. [MasterChapter](http://dolnxprodvm1036/Sharepoint-Platform-Support/revision-management/blob/master/src/ListTemplates/MasterChapter.stp)  
+  4. [MasterChapter](src/ListTemplates/MasterChapter.stp)  
     __Dependencies:__  
 	* _MasterManual_
-  5. [MasterSection](http://dolnxprodvm1036/Sharepoint-Platform-Support/revision-management/blob/master/src/ListTemplates/MasterSection.stp)  
+  5. [MasterSection](src/ListTemplates/MasterSection.stp)  
     __Dependencies:__  
 	* _MasterChapter_
 
